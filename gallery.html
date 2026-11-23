@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>摄影作品 · 龚姝悦 作品集</title>
+<meta name="description" content="龚姝悦的摄影作品：人像摄影、物品静物、风景建筑、食物摄影共 44 张。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23ad3b26'/%3E%3Ccircle cx='16' cy='16' r='5.5' fill='%23f7f3ea'/%3E%3C/svg%3E">
+<script>document.documentElement.classList.add("js");</script>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="gallery" data-nav="solid">
+
+<a class="skip" href="#main">跳到主要内容</a>
+
+<header class="nav is-solid">
+  <div class="nav__inner">
+    <a class="nav__brand" href="index.html" aria-label="龚姝悦 作品集 首页">
+      <span class="nav__name">龚姝悦</span>
+      <span class="nav__sub">Portfolio</span>
+    </a>
+    <nav class="nav__links" aria-label="主导航">
+      <a class="nav__link" href="index.html#about">关于</a>
+      <a class="nav__link" href="gallery.html">摄影</a>
+      <a class="nav__link" href="video.html">视频</a>
+      <a class="nav__link" href="index.html#experience">经历</a>
+      <a class="nav__link" href="index.html#contact">联系</a>
+      <a class="nav__cta" href="assets/docs/resume-gongshuyue.pdf" target="_blank" rel="noopener">简历 PDF</a>
+    </nav>
+    <button class="nav__burger" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="phead">
+    <div class="wrap">
+      <div class="phead__row">
+        <div>
+          <p class="crumb" style="margin-bottom:16px"><a href="index.html">首页</a> / 摄影作品</p>
+          <h1 class="phead__title">摄影 <em>Photography</em></h1>
+        </div>
+        <p class="phead__desc">44 张照片，四个方向：旅行途中的人像与风景、摄影课上对光线与构图的练习。点击任意一张可全屏查看，支持 ← → 键切换。</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="wrap">
+    <div class="filters">
+      <button class="filters__btn is-on" type="button" data-cat="all">全部</button>
+      <button class="filters__btn" type="button" data-cat="portrait">人像摄影</button>
+      <button class="filters__btn" type="button" data-cat="still">物品摄影</button>
+      <button class="filters__btn" type="button" data-cat="landscape">风景建筑</button>
+      <button class="filters__btn" type="button" data-cat="food">食物摄影</button>
+      <span class="filters__count">44 / 44 张</span>
+    </div>
+
+    <div class="masonry" id="masonry" data-gallery></div>
+  </div>
+
+  <section class="sec sec--tight">
+    <div class="wrap" style="display:flex;flex-wrap:wrap;gap:18px;align-items:center;justify-content:space-between">
+      <p class="sec-sub" style="max-width:44ch;font-size:14px">看完了照片，也可以去看看视频作品——AI 微电影、公益宣传片与影视混剪。</p>
+      <a class="btn btn--ink" href="video.html">视频作品<span class="btn__arrow">→</span></a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot__inner">
+    <span>© <span data-year>2026</span> 龚姝悦 · Portfolio</span>
+    <span>本页照片均为本人作品，未经授权请勿转载</span>
+    <a href="#main">回到顶部 ↑</a>
+  </div>
+</footer>
+
+<div class="lb" id="lightbox" role="dialog" aria-modal="true" aria-label="照片查看" aria-hidden="true">
+  <div class="lb__bar">
+    <span class="lb__count">1 / 1</span>
+    <button class="lb__btn lb__close" type="button" aria-label="关闭">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 5l14 14M19 5L5 19"/></svg>
+    </button>
+  </div>
+  <div class="lb__stage">
+    <img class="lb__img" alt="">
+    <div class="lb__nav lb__nav--prev">
+      <button class="lb__btn" type="button" aria-label="上一张">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 5l-7 7 7 7"/></svg>
+      </button>
+    </div>
+    <div class="lb__nav lb__nav--next">
+      <button class="lb__btn" type="button" aria-label="下一张">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M9 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+  </div>
+  <div class="lb__cap"></div>
+</div>
+
+<script src="assets/js/photos.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/site.js"></script>
+</body>
+</html>
