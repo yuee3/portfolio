@@ -21,7 +21,7 @@ window.SELECTED = [
 window.VIDEOS = [
   {
     id: "aifilm-jiangnan",
-    src: "assets/video/aifilm-jiangnan.mp4",
+    src: "https://github.com/yuee3/portfolio/releases/download/media-v1/aifilm-jiangnan.mp4",
     title: "江南丝染 · 阿绣的匠心",
     en: "Silk Dyeing of Jiangnan",
     tag: "AI 微电影",
@@ -40,7 +40,7 @@ window.VIDEOS = [
   },
   {
     id: "short-film",
-    src: "assets/video/short-film.mp4",
+    src: "https://github.com/yuee3/portfolio/releases/download/media-v1/short-film.mp4",
     title: "微电影作品",
     en: "Short Film",
     tag: "剧情短片",
@@ -52,7 +52,7 @@ window.VIDEOS = [
   },
   {
     id: "wahaha-ad",
-    src: "assets/video/wahaha-ad.mp4",
+    src: "https://github.com/yuee3/portfolio/releases/download/media-v1/wahaha-ad.mp4",
     title: "娃哈哈「非常可乐」",
     en: "Wahaha Very Cola · Ad",
     tag: "广告片",
@@ -63,7 +63,7 @@ window.VIDEOS = [
   },
   {
     id: "jiangbei-psa",
-    src: "assets/video/jiangbei-psa.mp4",
+    src: "https://github.com/yuee3/portfolio/releases/download/media-v1/jiangbei-psa.mp4",
     title: "江北美好生活 · 公益推广",
     en: "Jiangbei Public Service Film",
     tag: "公益宣传片",
@@ -75,7 +75,7 @@ window.VIDEOS = [
   },
   {
     id: "xhs-1290",
-    src: "assets/video/xhs-1290.mp4",
+    src: "https://github.com/yuee3/portfolio/releases/download/media-v1/xhs-1290.mp4",
     title: "《一把青》郭轸 × 朱青",
     en: "Xiaohongshu Edit · 1,290 likes",
     tag: "影视剪辑",
@@ -88,7 +88,7 @@ window.VIDEOS = [
   },
   {
     id: "xhs-1222",
-    src: "assets/video/xhs-1222.mp4",
+    src: "https://github.com/yuee3/portfolio/releases/download/media-v1/xhs-1222.mp4",
     title: "《一把青》「老师有教无类」",
     en: "Xiaohongshu Edit · 1,222 likes",
     tag: "影视剪辑",
@@ -100,7 +100,7 @@ window.VIDEOS = [
   },
   {
     id: "xhs-ruanlingyu",
-    src: "assets/video/xhs-ruanlingyu.mp4",
+    src: "https://github.com/yuee3/portfolio/releases/download/media-v1/xhs-ruanlingyu.mp4",
     title: "《阮玲玉》人物剪辑",
     en: "Ruan Lingyu · Character Edit",
     tag: "影视剪辑",
@@ -111,7 +111,7 @@ window.VIDEOS = [
   },
   {
     id: "xhs-xiuchundao",
-    src: "assets/video/xhs-xiuchundao.mp4",
+    src: "https://github.com/yuee3/portfolio/releases/download/media-v1/xhs-xiuchundao.mp4",
     title: "《绣春刀》人物混剪",
     en: "Brotherhood of Blades · Edit",
     tag: "影视剪辑",
